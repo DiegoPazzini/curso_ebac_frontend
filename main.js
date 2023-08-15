@@ -18,9 +18,9 @@ function TimeDeFutebol (time, nome, idade) {
     Pessoa.call(this, nome, idade)
 }
 
-const joao = new Pessoa('Diego', 29)
+const Diego = new Pessoa('Diego', 29)
 pessoa1.saudacao()
 const vinicius = new Funcionario('Pazzini', 25, 5000, 'Dev front end')
-console.log(vinicius)
+console.log(Diego)
 const mike = new TimeDeFutebol('Grêmio', 'Diogo', 26)
 console.log(TimeDeFutebol)
